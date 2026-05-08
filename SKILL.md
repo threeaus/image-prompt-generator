@@ -1,7 +1,7 @@
 ---
 name: image-prompt-generator
 description: 画图提示词生成器 — 用户描述想要的画面，基于"视觉代偿"方法论自动补全维度，输出可直接用于 AI 画图工具的完整 prompt。
-version: 2.0
+version: 1.0
 ---
 
 # Image Prompt Generator (v2 - 视觉代偿版)
@@ -129,5 +129,3 @@ version: 2.0
 
 === 完整 Prompt ===
 A narrow city street in cyberpunk Tokyo at night after rain, dense buildings on both sides covered in glowing signs and holographic ad screens. A figure in a dark long coat walks away from the camera down the center of the street, coat hem lifted by wind. Wet asphalt reflects pink-purple and cyan neon light, puddles on the ground mirror the signs above, distant building clusters fade into fog. 9:16 vertical format, figure in the lower third, buildings narrowing upward into perspective, ground reflections filling the bottom quarter. Neon signs cast pink-purple and cyan light on wet pavement, faint rim light on the figure's silhouette, cold blue moonlight from above. Japanese katakana and kanji on signs showing fictional shop names with glow effect. Cinematic photography feel, Blade Runner 2049 color palette, high contrast, cyberpunk aesthetic. No additional text.
-
-需要调整哪个维度？
