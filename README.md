@@ -2,9 +2,7 @@
 
 ## 中文
 
-`image-prompt-generator` 是一个给 coding agent 使用的图片提示词生成 skill / instruction 文件。
-
-它不限定于 Codex。只要你的 coding agent 支持自定义 skills、rules、instructions、prompts 或类似机制，就可以使用这个文件。
+`image-prompt-generator` 是一个给 coding agent 使用的图片提示词生成 skill 。
 
 它适合处理很短的画面描述，并把抽象想法转换成观众能直接看到的画面细节。输出包含中文维度拆解和可直接用于 AI 画图工具的英文 prompt。
 
@@ -51,7 +49,7 @@ mkdir -p ~/.codex/skills/image-prompt-generator
 cp SKILL.md ~/.codex/skills/image-prompt-generator/SKILL.md
 ```
 
-安装后，重新打开对应 agent 或开始一个新会话，让它加载这个 skill / instruction。
+安装后，重新打开对应 agent 或开始一个新会话，让它加载这个 skill。
 
 ### 使用方式
 
@@ -87,9 +85,7 @@ cp SKILL.md ~/.codex/skills/image-prompt-generator/SKILL.md
 
 ## English
 
-`image-prompt-generator` is an image prompt generation skill / instruction file for coding agents.
-
-It is not limited to Codex. Any coding agent that supports custom skills, rules, instructions, prompts, or a similar mechanism can use this file.
+`image-prompt-generator` is an image prompt generation skill file for coding agents.
 
 It turns short or abstract image ideas into visible scene details. The output includes a Chinese dimension breakdown and a complete English prompt ready for image generation.
 
@@ -136,7 +132,7 @@ mkdir -p ~/.codex/skills/image-prompt-generator
 cp SKILL.md ~/.codex/skills/image-prompt-generator/SKILL.md
 ```
 
-After installation, restart the relevant agent or start a new session so it can load the skill / instruction.
+After installation, restart the relevant agent or start a new session so it can load the skill.
 
 ### Usage
 
